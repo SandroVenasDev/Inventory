@@ -295,3 +295,8 @@ label {
   background-color: #0d6efd; 
   color: white !important;
 }
+
+.items.box-div{
+  height: 1000px;
+  width: 90%;
+}
