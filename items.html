@@ -11,15 +11,15 @@
   <body class="d-flex position-relative">
     <div class="icons-dashboard sidebar d-flex flex-column">
       <div class="d-flex align-items-center mb-4">
-        <img src="images/Group 52.png" alt="logo" class="logo-dashboard" />
+        <img src="images/Group 52.png" alt="logo" class="logo-dashboard"/>
         <h1 class="h5 m-0">Inventory</h1>
       </div>
-      <a href="#" class="sidebar-btn d-flex align-items-center" onclick="window.location.href='dashboard.html'">
+      <a href="dashboard.html" class="sidebar-btn d-flex align-items-center">
         <span class="active-bar"></span>
-        <img src="images/apps.png" alt="dashboard" class="icon" />
+        <img src="images/apps.png" alt="dashboard" class="icon"/>
         Dashboard
       </a>
-      <a href="#" class="sidebar-btn active d-flex align-items-center" onclick="window.location.href='items.html'">
+      <a href="items.html" class="sidebar-btn active d-flex align-items-center">
         <span class="active-bar"></span>
         <img src="images/shopping bag.png" alt="items" class="icon" />
         Items
@@ -62,18 +62,32 @@
     <div class="flex-grow-1 p-4">
       <h2>All Items</h2>
       <p>Items detail Information</p>
-      <div class="d-flex justify-content-center align-items-center mt-5" style="gap: 2rem;">
-        <div class="items box-div p-4 text-left">
-          <div class="d-flex justify-content-between align-items-center mb-3">
-            <div class="input-group" style="max-width: 300px; height: 60px;">
-                <span class="input-group-text bg-white border-end-0">
-                    <img src="images/search.png" alt="Search" class="search-icon" />
-                </span>
-                <input type="text" class="form-control border-start-0" placeholder="Search items...">
-            </div>
+      <div class="d-flex justify-content-center align-items-center mt-3" style="gap: 2rem;" >
+        <div class="items box-div p-4 text-left" style="height: 920px; margin-top: 70px;">
+         <div class="d-flex justify-content-between align-items-center mb-3">
+          <div class="input-group" style="max-width: 300px; height: 60px;">
+            <span class="input-group-text bg-white border-end-0">
+              <img src="images/search.png" alt="Search" class="search-icon" />
+            </span>
+            <input type="text" class="form-control border-start-0" placeholder="Search items...">
           </div>
+          <div class="d-flex align-items-center" style="gap: 0.5rem;">
+            <img src="images/Combo shape.png" alt="" style="margin-right: 20px;">
+            <a href="add-item.html" class="btn btn-primary d-flex align-items-center" style="margin-right: 20px;">
+              <img src="images/Vector.png" alt="add item" style="margin-right: 10px;">
+              Add Item
+            </a>
+            <a href="#" class="btn d-flex align-items-center">
+              <img src="images/filter.png" alt="filter" style="margin-right: 10px;">
+              Filter
+            </a>
+          </div>
+         </div>
           <div class="d-flex items-field-header text-left mb-3 items-center justify-between cursor-pointer">
-            <div class="field w-25 fwsemibold">Item <br> Name</div>
+            <div class="form-check ">
+              <input class="form-check-input" type="checkbox" value="" id="selectAll" />
+            </div>
+            <div class="field w-25 fwsemibold">Item Name</div>
             <div class="field w-25 fwsemibold">Image</div>
             <div class="field w-25 fwsemibold">Model</div>
             <div class="field w-25 fwsemibold">Type</div>
@@ -83,6 +97,9 @@
             <div class="field w-25 fwsemibold">Account</div>
           </div>
           <div class="d-flex text-left mb-2 items-center justify-between">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="">
+            </div>
             <div class="field w-25 text">Gas Kitting</div>
             <div class="field w-25 centered"><img src="images/unsplash_tpuAo8gVs58.png" alt="Gas Kitting" width="60"></div>
             <div class="field w-25 text">G-7983</div>
@@ -93,6 +110,9 @@
             <div class="field w-25 text">Actived</div>
           </div>
           <div class="d-flex text-left mb-2 items-center justify-between">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="">
+            </div>
             <div class="field w-25 text">Gas Kitting</div>
             <div class="field w-25 centered"><img src="images/unsplash_tpuAo8gVs58.png" alt="Gas Kitting" width="60"></div>
             <div class="field w-25 text">G-7983</div>
@@ -103,6 +123,9 @@
             <div class="field w-25 text">Actived</div>
           </div>
           <div class="d-flex text-left mb-2 items-center justify-between">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="">
+            </div>
             <div class="field w-25 text">Gas Kitting</div>
             <div class="field w-25 centered"><img src="images/unsplash_tpuAo8gVs58.png" alt="Gas Kitting" width="60"></div>
             <div class="field w-25 text">G-7983</div>
@@ -113,6 +136,9 @@
             <div class="field w-25 text">Actived</div>
           </div>
           <div class="d-flex text-left mb-2 items-center justify-between">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="">
+            </div>
             <div class="field w-25 text">Gas Kitting</div>
             <div class="field w-25 centered"><img src="images/unsplash_tpuAo8gVs58.png" alt="Gas Kitting" width="60"></div>
             <div class="field w-25 text">G-7983</div>
@@ -123,6 +149,9 @@
             <div class="field w-25 text">Actived</div>
           </div>
           <div class="d-flex text-left mb-2 items-center justify-between">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="">
+            </div>
             <div class="field w-25 text">Gas Kitting</div>
             <div class="field w-25 centered"><img src="images/unsplash_tpuAo8gVs58.png" alt="Gas Kitting" width="60"></div>
             <div class="field w-25 text">G-7983</div>
@@ -133,6 +162,9 @@
             <div class="field w-25 text">Actived</div>
           </div>
           <div class="d-flex text-left mb-2 items-center justify-between">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="">
+            </div>
             <div class="field w-25 text">Gas Kitting</div>
             <div class="field w-25 centered"><img src="images/unsplash_tpuAo8gVs58.png" alt="Gas Kitting" width="60"></div>
             <div class="field w-25 text">G-7983</div>
@@ -143,6 +175,9 @@
             <div class="field w-25 text">Actived</div>
           </div>
           <div class="d-flex text-left mb-2 items-center justify-between">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="">
+            </div>
             <div class="field w-25 text">Gas Kitting</div>
             <div class="field w-25 centered"><img src="images/unsplash_tpuAo8gVs58.png" alt="Gas Kitting" width="60"></div>
             <div class="field w-25 text">G-7983</div>
@@ -153,6 +188,9 @@
             <div class="field w-25 text">Actived</div>
           </div>
           <div class="d-flex text-left mb-2 items-center justify-between">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="">
+            </div>
             <div class="field w-25 text">Gas Kitting</div>
             <div class="field w-25 centered"><img src="images/unsplash_tpuAo8gVs58.png" alt="Gas Kitting" width="60"></div>
             <div class="field w-25 text">G-7983</div>
@@ -163,6 +201,9 @@
             <div class="field w-25 text">Actived</div>
           </div>
           <div class="d-flex text-left mb-2 items-center justify-between">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="">
+            </div>
             <div class="field w-25 text">Gas Kitting</div>
             <div class="field w-25 centered"><img src="images/unsplash_tpuAo8gVs58.png" alt="Gas Kitting" width="60"></div>
             <div class="field w-25 text">G-7983</div>
@@ -173,6 +214,9 @@
             <div class="field w-25 text">Actived</div>
           </div>
           <div class="d-flex text-left mb-2 items-center justify-between">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="">
+            </div>
             <div class="field w-25 text">Gas Kitting</div>
             <div class="field w-25 centered"><img src="images/unsplash_tpuAo8gVs58.png" alt="Gas Kitting" width="60"></div>
             <div class="field w-25 text">G-7983</div>
@@ -182,6 +226,30 @@
             <div class="field w-25 text">HQ</div>
             <div class="field w-25 text">Actived</div>
           </div>
+          <div class="d-flex justify-content-between align-items-center mt-4">
+          <div class="d-flex align-items-center" style="gap: 0.5rem; width: 33%;">
+            <span class="text-muted">Showing</span>
+            <select class="form-select" style="width: 80px;">
+              <option>10</option>
+              <option>25</option>
+              <option>50</option>
+            </select>
+          </div>
+          <div class="d-flex align-items-center justify-content-center" style="gap: 1rem; width: 33%;">
+            <div class="progress" style="width: 150px; height: 6px;">
+              <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <span class="text-muted">Showing 1 to 10 out of 40 records</span>
+          </div>
+          <div class="pagination d-flex justify-content-end" style="gap: 0.5rem; width: 33%;">
+            <a href="#"><img src="images/direaction right.png"></a>
+            <a class="active" href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#"><img src="images/direction-right 01.png" alt=""></a>
+          </div>
+        </div>
         </div>
       <div class="search-bar">
         <img src="images/search.png" alt="Search" class="search-icon" />

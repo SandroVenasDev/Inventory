@@ -23,3 +23,18 @@
   } else {
     activateLightMode();
   }
+
+
+
+  // Quando o checkbox do cabeçalho é clicado
+  document.getElementById('selectAll').addEventListener('change', function () {
+    const isChecked = this.checked;
+
+    // Seleciona todas as checkboxes dos itens (ignorando a do cabeçalho)
+    const checkboxes = document.querySelectorAll('.items .form-check-input:not(#selectAll)');
+    
+    checkboxes.forEach(function (checkbox) {
+      checkbox.checked = isChecked;
+    });
+  });
+
