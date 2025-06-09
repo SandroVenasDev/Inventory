@@ -1,11 +1,11 @@
-body{
+body {
   background-color: white;
   color: black;
   transition: background-color 0.3s, color 0.3s;
 }
 
 body.dark-mode {
-  background-color: #121212;
+  background-color: #202020;
   color: #f1f1f1;
 }
 
@@ -66,7 +66,7 @@ label {
 .sidebar-btn {
   display: flex;
   align-items: center;
-  color: #fff;
+  color: black;
   text-decoration: none;
   background-color: transparent;
   border: none;
@@ -75,7 +75,6 @@ label {
   position: relative;
   font-weight: 500;
   border-radius: 0;
-  color: black;
 }
 
 .sidebar-btn:hover {
@@ -183,7 +182,6 @@ label {
   padding: 8px 12px;
 }
 
-
 .search-input {
   border: none;
   outline: none;
@@ -213,12 +211,12 @@ label {
   border-radius: 12px;
 } 
 
-.text-2{
+.text-2 {
   margin-left: 40px;
 }
 
-.p-summary{ 
-  margin-top: 50 ;
+.p-summary { 
+  margin-top: 50px;
 }
 
 .d-flex.flex-column.align-items-center.text-center {
@@ -229,13 +227,12 @@ label {
   height: 110px;
 }
 
-.d-flex.flex-column.align-items-center.text-center img{
+.d-flex.flex-column.align-items-center.text-center img {
   height: 35px;
   width: 35px;
 }
 
 .d-flex.flex-column.align-items-center.text-center p {
-  margin-top: auto;
   margin-bottom: 0;
   line-height: 1.2;
   min-height: 1.2rem;
@@ -244,7 +241,7 @@ label {
   margin-top: 4px;
 }
 
-.section2{
+.section2 {
   margin-left: 50px;
 }
 
@@ -254,16 +251,15 @@ label {
   padding: 8px;
 }
 
-.centered{
+.centered {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.field.w-25.text{
-  margin-left: 10px
+.field.w-25.text {
+  margin-left: 10px;
 }
-
 
 .theme-btn {
   background: transparent;
@@ -277,27 +273,20 @@ label {
   margin-right: 10px;
 }
 
-.light-btn {
+.btn-light-theme {
   color: white;
-  
 }
 
-.dark-btn {
+.btn-dark-theme {
   color: black;
-  }
+}
 
 .theme-btn.active {
   background-color: #0d6efd;
-    color: white !important;
-}
-
-
-.theme-btn.active {
-  background-color: #0d6efd; 
   color: white !important;
 }
 
-.items.box-div{
+.items.box-div {
   height: 1000px;
   width: 90%;
 }
